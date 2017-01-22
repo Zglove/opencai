@@ -101,6 +101,7 @@
 		C79AA2511E3459DA0095B708 /* OpenCai */ = {
 			isa = PBXGroup;
 			children = (
+				C79AA2851E345BF40095B708 /* Classes */,
 				C79AA2551E3459DA0095B708 /* AppDelegate.h */,
 				C79AA2561E3459DA0095B708 /* AppDelegate.m */,
 				C79AA2581E3459DA0095B708 /* ViewController.h */,
@@ -138,6 +139,197 @@
 				C79AA2791E3459DB0095B708 /* Info.plist */,
 			);
 			path = OpenCaiUITests;
+			sourceTree = "<group>";
+		};
+		C79AA2851E345BF40095B708 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA2871E345BF40095B708 /* Home */,
+				C79AA2891E345BF40095B708 /* Master */,
+				C79AA2861E345BF40095B708 /* Feedback */,
+				C79AA28A1E345BF40095B708 /* More */,
+				C79AA28C1E345BF40095B708 /* Recommend */,
+				C79AA28B1E345BF40095B708 /* Others */,
+				C79AA28D1E345BF40095B708 /* Tools */,
+				C79AA2881E345BF40095B708 /* Libs */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C79AA2861E345BF40095B708 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA2911E345C860095B708 /* Controller */,
+				C79AA2921E345C860095B708 /* Model */,
+				C79AA2931E345C860095B708 /* View */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		C79AA2871E345BF40095B708 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA2941E345C970095B708 /* Controller */,
+				C79AA2951E345C970095B708 /* Model */,
+				C79AA2961E345C970095B708 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C79AA2881E345BF40095B708 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		C79AA2891E345BF40095B708 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA2971E345CAA0095B708 /* Controller */,
+				C79AA2981E345CAA0095B708 /* Model */,
+				C79AA2991E345CAA0095B708 /* View */,
+			);
+			path = Master;
+			sourceTree = "<group>";
+		};
+		C79AA28A1E345BF40095B708 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA29A1E345CB50095B708 /* Controller */,
+				C79AA29B1E345CB50095B708 /* Model */,
+				C79AA29C1E345CB50095B708 /* View */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		C79AA28B1E345BF40095B708 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C79AA28C1E345BF40095B708 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA28E1E345C7B0095B708 /* Controller */,
+				C79AA28F1E345C7B0095B708 /* Model */,
+				C79AA2901E345C7B0095B708 /* View */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		C79AA28D1E345BF40095B708 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C79AA28E1E345C7B0095B708 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C79AA28F1E345C7B0095B708 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C79AA2901E345C7B0095B708 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C79AA2911E345C860095B708 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C79AA2921E345C860095B708 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C79AA2931E345C860095B708 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C79AA2941E345C970095B708 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C79AA2951E345C970095B708 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C79AA2961E345C970095B708 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C79AA2971E345CAA0095B708 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C79AA2981E345CAA0095B708 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C79AA2991E345CAA0095B708 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C79AA29A1E345CB50095B708 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C79AA29B1E345CB50095B708 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C79AA29C1E345CB50095B708 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +697,7 @@
 				C79AA27E1E3459DB0095B708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C79AA27F1E3459DB0095B708 /* Build configuration list for PBXNativeTarget "OpenCaiTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +706,7 @@
 				C79AA2811E3459DB0095B708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C79AA2821E3459DB0095B708 /* Build configuration list for PBXNativeTarget "OpenCaiUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +715,7 @@
 				C79AA2841E3459DB0095B708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
