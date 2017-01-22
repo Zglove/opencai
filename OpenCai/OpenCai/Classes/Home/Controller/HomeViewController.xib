@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11542"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="areaSuperView" destination="Yoo-MB-t4s" id="yzL-k2-13b"/>
+                <outlet property="cardSuperView" destination="l4V-AO-6gf" id="KYp-hp-WDw"/>
+                <outlet property="codeSuperView" destination="gFW-n9-NgN" id="UHL-00-sM8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFW-n9-NgN" userLabel="openCodeView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="165"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="165" id="aXu-aK-Mcq"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yoo-MB-t4s" userLabel="areaView">
+                    <rect key="frame" x="0.0" y="165" width="375" height="160"/>
+                    <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="6vS-i9-E1t"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l4V-AO-6gf" userLabel="cardView">
+                    <rect key="frame" x="0.0" y="325" width="375" height="240"/>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="240" id="XvO-E3-JHk"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2O-Dt-Xh6" userLabel="ButtomView">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="yvB-3V-eyb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gFW-n9-NgN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6U3-EN-4r9"/>
+                <constraint firstItem="l4V-AO-6gf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DRc-fU-myI"/>
+                <constraint firstAttribute="trailing" secondItem="l4V-AO-6gf" secondAttribute="trailing" id="Iqu-dH-pQT"/>
+                <constraint firstItem="Yoo-MB-t4s" firstAttribute="top" secondItem="gFW-n9-NgN" secondAttribute="bottom" id="JKY-9l-eOh"/>
+                <constraint firstItem="gFW-n9-NgN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="MkB-3Q-7jY"/>
+                <constraint firstItem="Yoo-MB-t4s" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="N6F-4p-QnC"/>
+                <constraint firstItem="l4V-AO-6gf" firstAttribute="top" secondItem="Yoo-MB-t4s" secondAttribute="bottom" id="Qd5-cc-iJ8"/>
+                <constraint firstAttribute="bottom" secondItem="c2O-Dt-Xh6" secondAttribute="bottom" id="XR0-my-Sgq"/>
+                <constraint firstAttribute="trailing" secondItem="c2O-Dt-Xh6" secondAttribute="trailing" id="b8j-Jw-8lk"/>
+                <constraint firstAttribute="trailing" secondItem="gFW-n9-NgN" secondAttribute="trailing" id="dnW-Hy-aKm"/>
+                <constraint firstAttribute="trailing" secondItem="Yoo-MB-t4s" secondAttribute="trailing" id="ooN-1R-Ft8"/>
+                <constraint firstItem="c2O-Dt-Xh6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rpC-i3-KmY"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

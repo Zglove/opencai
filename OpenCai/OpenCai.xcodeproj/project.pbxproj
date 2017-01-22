@@ -15,6 +15,21 @@
 		C79AA2621E3459DA0095B708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2601E3459DA0095B708 /* LaunchScreen.storyboard */; };
 		C79AA26D1E3459DB0095B708 /* OpenCaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA26C1E3459DB0095B708 /* OpenCaiTests.m */; };
 		C79AA2781E3459DB0095B708 /* OpenCaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA2771E3459DB0095B708 /* OpenCaiUITests.m */; };
+		C79AA2A01E345E070095B708 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA29E1E345E070095B708 /* HomeViewController.m */; };
+		C79AA2A11E345E070095B708 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79AA29F1E345E070095B708 /* HomeViewController.xib */; };
+		C79AA2A81E345FAC0095B708 /* TNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA2A71E345FAC0095B708 /* TNavigationController.m */; };
+		C79AA2AF1E348B490095B708 /* OpenCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA2AE1E348B490095B708 /* OpenCodeView.m */; };
+		C79AA2B21E348B7E0095B708 /* AreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA2B11E348B7E0095B708 /* AreaView.m */; };
+		C79AA2B51E348B910095B708 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA2B41E348B910095B708 /* CardView.m */; };
+		C79AA2B81E348E910095B708 /* shareIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2B71E348E910095B708 /* shareIcon.png */; };
+		C79AA2BA1E348EC80095B708 /* loginIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2B91E348EC80095B708 /* loginIcon.png */; };
+		C79AA2BC1E348EF90095B708 /* helpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2BB1E348EF90095B708 /* helpIcon.png */; };
+		C79AA2BE1E348F1D0095B708 /* setIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2BD1E348F1D0095B708 /* setIcon.png */; };
+		C79AA2C11E34950B0095B708 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA2C01E34950B0095B708 /* UIButton+Extension.m */; };
+		C79AA2C41E3497CA0095B708 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA2C31E3497CA0095B708 /* UILabel+Extension.m */; };
+		C79AA2C81E34AB550095B708 /* OpenCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2C71E34AB550095B708 /* OpenCodeView.xib */; };
+		C79AA2CA1E34B7C80095B708 /* AreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2C91E34B7C80095B708 /* AreaView.xib */; };
+		C79AA2CC1E34B8400095B708 /* areaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2CB1E34B8400095B708 /* areaIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,30 @@
 		C79AA2731E3459DB0095B708 /* OpenCaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79AA2771E3459DB0095B708 /* OpenCaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCaiUITests.m; sourceTree = "<group>"; };
 		C79AA2791E3459DB0095B708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79AA29D1E345E070095B708 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C79AA29E1E345E070095B708 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C79AA29F1E345E070095B708 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C79AA2A61E345FAC0095B708 /* TNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNavigationController.h; sourceTree = "<group>"; };
+		C79AA2A71E345FAC0095B708 /* TNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNavigationController.m; sourceTree = "<group>"; };
+		C79AA2AB1E3462240095B708 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C79AA2AC1E34659A0095B708 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C79AA2AD1E348B490095B708 /* OpenCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCodeView.h; sourceTree = "<group>"; };
+		C79AA2AE1E348B490095B708 /* OpenCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenCodeView.m; sourceTree = "<group>"; };
+		C79AA2B01E348B7E0095B708 /* AreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaView.h; sourceTree = "<group>"; };
+		C79AA2B11E348B7E0095B708 /* AreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaView.m; sourceTree = "<group>"; };
+		C79AA2B31E348B910095B708 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		C79AA2B41E348B910095B708 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		C79AA2B71E348E910095B708 /* shareIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareIcon.png; sourceTree = "<group>"; };
+		C79AA2B91E348EC80095B708 /* loginIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginIcon.png; sourceTree = "<group>"; };
+		C79AA2BB1E348EF90095B708 /* helpIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpIcon.png; sourceTree = "<group>"; };
+		C79AA2BD1E348F1D0095B708 /* setIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setIcon.png; sourceTree = "<group>"; };
+		C79AA2BF1E34950B0095B708 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		C79AA2C01E34950B0095B708 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		C79AA2C21E3497CA0095B708 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		C79AA2C31E3497CA0095B708 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		C79AA2C71E34AB550095B708 /* OpenCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenCodeView.xib; sourceTree = "<group>"; };
+		C79AA2C91E34B7C80095B708 /* AreaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AreaView.xib; sourceTree = "<group>"; };
+		C79AA2CB1E34B8400095B708 /* areaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = areaIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +183,8 @@
 		C79AA2851E345BF40095B708 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C79AA2B61E348E7A0095B708 /* Resource */,
+				C79AA2A21E345EE40095B708 /* Main */,
 				C79AA2871E345BF40095B708 /* Home */,
 				C79AA2891E345BF40095B708 /* Master */,
 				C79AA2861E345BF40095B708 /* Feedback */,
@@ -206,6 +247,7 @@
 		C79AA28B1E345BF40095B708 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				C79AA2AC1E34659A0095B708 /* PrefixHeader.pch */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -223,6 +265,8 @@
 		C79AA28D1E345BF40095B708 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C79AA2A91E3462110095B708 /* Configuration */,
+				C79AA2AA1E3462110095B708 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -272,6 +316,9 @@
 		C79AA2941E345C970095B708 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C79AA29D1E345E070095B708 /* HomeViewController.h */,
+				C79AA29E1E345E070095B708 /* HomeViewController.m */,
+				C79AA29F1E345E070095B708 /* HomeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -286,6 +333,14 @@
 		C79AA2961E345C970095B708 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C79AA2AD1E348B490095B708 /* OpenCodeView.h */,
+				C79AA2AE1E348B490095B708 /* OpenCodeView.m */,
+				C79AA2C71E34AB550095B708 /* OpenCodeView.xib */,
+				C79AA2B01E348B7E0095B708 /* AreaView.h */,
+				C79AA2B11E348B7E0095B708 /* AreaView.m */,
+				C79AA2C91E34B7C80095B708 /* AreaView.xib */,
+				C79AA2B31E348B910095B708 /* CardView.h */,
+				C79AA2B41E348B910095B708 /* CardView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -330,6 +385,70 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C79AA2A21E345EE40095B708 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA2A31E345EE40095B708 /* Controller */,
+				C79AA2A41E345EE40095B708 /* Model */,
+				C79AA2A51E345EE40095B708 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C79AA2A31E345EE40095B708 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA2A61E345FAC0095B708 /* TNavigationController.h */,
+				C79AA2A71E345FAC0095B708 /* TNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C79AA2A41E345EE40095B708 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C79AA2A51E345EE40095B708 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C79AA2A91E3462110095B708 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA2AB1E3462240095B708 /* Header.h */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		C79AA2AA1E3462110095B708 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA2BF1E34950B0095B708 /* UIButton+Extension.h */,
+				C79AA2C01E34950B0095B708 /* UIButton+Extension.m */,
+				C79AA2C21E3497CA0095B708 /* UILabel+Extension.h */,
+				C79AA2C31E3497CA0095B708 /* UILabel+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C79AA2B61E348E7A0095B708 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C79AA2BB1E348EF90095B708 /* helpIcon.png */,
+				C79AA2B91E348EC80095B708 /* loginIcon.png */,
+				C79AA2BD1E348F1D0095B708 /* setIcon.png */,
+				C79AA2B71E348E910095B708 /* shareIcon.png */,
+				C79AA2CB1E34B8400095B708 /* areaIcon.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,11 +513,13 @@
 		C79AA2471E3459DA0095B708 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = T;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "谈虎啸";
 				TargetAttributes = {
 					C79AA24E1E3459DA0095B708 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MVJVM8PPG6;
 						ProvisioningStyle = Automatic;
 					};
 					C79AA2671E3459DA0095B708 = {
@@ -438,9 +559,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79AA2C81E34AB550095B708 /* OpenCodeView.xib in Resources */,
 				C79AA2621E3459DA0095B708 /* LaunchScreen.storyboard in Resources */,
+				C79AA2CC1E34B8400095B708 /* areaIcon.png in Resources */,
 				C79AA25F1E3459DA0095B708 /* Assets.xcassets in Resources */,
+				C79AA2BC1E348EF90095B708 /* helpIcon.png in Resources */,
+				C79AA2BE1E348F1D0095B708 /* setIcon.png in Resources */,
 				C79AA25D1E3459DA0095B708 /* Main.storyboard in Resources */,
+				C79AA2B81E348E910095B708 /* shareIcon.png in Resources */,
+				C79AA2CA1E34B7C80095B708 /* AreaView.xib in Resources */,
+				C79AA2BA1E348EC80095B708 /* loginIcon.png in Resources */,
+				C79AA2A11E345E070095B708 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,7 +596,14 @@
 			files = (
 				C79AA25A1E3459DA0095B708 /* ViewController.m in Sources */,
 				C79AA2571E3459DA0095B708 /* AppDelegate.m in Sources */,
+				C79AA2B51E348B910095B708 /* CardView.m in Sources */,
+				C79AA2C11E34950B0095B708 /* UIButton+Extension.m in Sources */,
 				C79AA2541E3459DA0095B708 /* main.m in Sources */,
+				C79AA2AF1E348B490095B708 /* OpenCodeView.m in Sources */,
+				C79AA2A81E345FAC0095B708 /* TNavigationController.m in Sources */,
+				C79AA2B21E348B7E0095B708 /* AreaView.m in Sources */,
+				C79AA2C41E3497CA0095B708 /* UILabel+Extension.m in Sources */,
+				C79AA2A01E345E070095B708 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,7 +750,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVJVM8PPG6;
+				GCC_PREFIX_HEADER = OpenCai/Classes/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = OpenCai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanhuxiao.OpenCai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -625,7 +764,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVJVM8PPG6;
+				GCC_PREFIX_HEADER = OpenCai/Classes/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = OpenCai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tanhuxiao.OpenCai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
