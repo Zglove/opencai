@@ -24,6 +24,10 @@
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BxK-ib-KbJ">
                     <rect key="frame" x="240" y="0.0" width="135" height="160"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="f3N-Eh-Cwn"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="pbM-Wt-Hqk"/>
+                    </connections>
                 </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -38,6 +42,10 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="areaImageView" destination="8da-Er-S6Y" id="TD6-GB-QPv"/>
+                <outlet property="areaListView" destination="BxK-ib-KbJ" id="Ek9-I0-fzi"/>
+            </connections>
             <point key="canvasLocation" x="13" y="-130"/>
         </view>
     </objects>

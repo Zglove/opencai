@@ -33,6 +33,9 @@
 		C79AA2C81E34AB550095B708 /* OpenCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2C71E34AB550095B708 /* OpenCodeView.xib */; };
 		C79AA2CA1E34B7C80095B708 /* AreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2C91E34B7C80095B708 /* AreaView.xib */; };
 		C79AA2CC1E34B8400095B708 /* areaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C79AA2CB1E34B8400095B708 /* areaIcon.png */; };
+		C7A2829C1E3596FA0042F8E1 /* ProvinceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7A2829B1E3596FA0042F8E1 /* ProvinceList.plist */; };
+		C7A2829F1E35A3A40042F8E1 /* ProModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2829E1E35A3A40042F8E1 /* ProModel.m */; };
+		C7A282A21E35D7290042F8E1 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A282A11E35D7290042F8E1 /* TriangleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +85,7 @@
 		C79AA29F1E345E070095B708 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		C79AA2A61E345FAC0095B708 /* TNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNavigationController.h; sourceTree = "<group>"; };
 		C79AA2A71E345FAC0095B708 /* TNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNavigationController.m; sourceTree = "<group>"; };
-		C79AA2AB1E3462240095B708 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		C79AA2AB1E3462240095B708 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		C79AA2AC1E34659A0095B708 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C79AA2AD1E348B490095B708 /* OpenCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCodeView.h; sourceTree = "<group>"; };
 		C79AA2AE1E348B490095B708 /* OpenCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenCodeView.m; sourceTree = "<group>"; };
@@ -101,6 +104,11 @@
 		C79AA2C71E34AB550095B708 /* OpenCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenCodeView.xib; sourceTree = "<group>"; };
 		C79AA2C91E34B7C80095B708 /* AreaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AreaView.xib; sourceTree = "<group>"; };
 		C79AA2CB1E34B8400095B708 /* areaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = areaIcon.png; sourceTree = "<group>"; };
+		C7A2829B1E3596FA0042F8E1 /* ProvinceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProvinceList.plist; sourceTree = "<group>"; };
+		C7A2829D1E35A3A40042F8E1 /* ProModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProModel.h; sourceTree = "<group>"; };
+		C7A2829E1E35A3A40042F8E1 /* ProModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProModel.m; sourceTree = "<group>"; };
+		C7A282A01E35D7290042F8E1 /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		C7A282A11E35D7290042F8E1 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
 		E5DCC874DF9CD6F710C42308 /* Pods-OpenCaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCaiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCaiTests/Pods-OpenCaiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -356,6 +364,8 @@
 		C79AA2951E345C970095B708 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C7A2829D1E35A3A40042F8E1 /* ProModel.h */,
+				C7A2829E1E35A3A40042F8E1 /* ProModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -371,6 +381,8 @@
 				C79AA2C91E34B7C80095B708 /* AreaView.xib */,
 				C79AA2B31E348B910095B708 /* CardView.h */,
 				C79AA2B41E348B910095B708 /* CardView.m */,
+				C7A282A01E35D7290042F8E1 /* TriangleView.h */,
+				C7A282A11E35D7290042F8E1 /* TriangleView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -453,7 +465,7 @@
 		C79AA2A91E3462110095B708 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				C79AA2AB1E3462240095B708 /* Header.h */,
+				C79AA2AB1E3462240095B708 /* Macro.h */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -477,6 +489,7 @@
 				C79AA2BD1E348F1D0095B708 /* setIcon.png */,
 				C79AA2B71E348E910095B708 /* shareIcon.png */,
 				C79AA2CB1E34B8400095B708 /* areaIcon.png */,
+				C7A2829B1E3596FA0042F8E1 /* ProvinceList.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -610,6 +623,7 @@
 			files = (
 				C79AA2C81E34AB550095B708 /* OpenCodeView.xib in Resources */,
 				C79AA2621E3459DA0095B708 /* LaunchScreen.storyboard in Resources */,
+				C7A2829C1E3596FA0042F8E1 /* ProvinceList.plist in Resources */,
 				C79AA2CC1E34B8400095B708 /* areaIcon.png in Resources */,
 				C79AA25F1E3459DA0095B708 /* Assets.xcassets in Resources */,
 				C79AA2BC1E348EF90095B708 /* helpIcon.png in Resources */,
@@ -782,6 +796,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C79AA25A1E3459DA0095B708 /* ViewController.m in Sources */,
+				C7A2829F1E35A3A40042F8E1 /* ProModel.m in Sources */,
+				C7A282A21E35D7290042F8E1 /* TriangleView.m in Sources */,
 				C79AA2571E3459DA0095B708 /* AppDelegate.m in Sources */,
 				C79AA2B51E348B910095B708 /* CardView.m in Sources */,
 				C79AA2C11E34950B0095B708 /* UIButton+Extension.m in Sources */,

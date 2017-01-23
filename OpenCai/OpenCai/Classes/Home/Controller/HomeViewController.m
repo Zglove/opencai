@@ -11,6 +11,7 @@
 #import "AreaView.h"
 #import "CardView.h"
 
+
 @interface HomeViewController ()
 //父视图，用来包裹自定义视图
 @property (weak, nonatomic) IBOutlet UIView *codeSuperView;
@@ -55,6 +56,9 @@
     _areaView = [AreaView loadAreaView];
     _areaView.frame = _areaSuperView.bounds;
     [_areaSuperView addSubview:_areaView];
+    
+ 
+    
 }
 #pragma mark - 监听事件
 - (void)shareItemClicked:(id)sender {
