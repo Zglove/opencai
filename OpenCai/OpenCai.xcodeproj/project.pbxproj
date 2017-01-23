@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214C410F4BAE2D2288F4F667 /* Pods_OpenCaiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D14982B96D0150E038427AA /* Pods_OpenCaiUITests.framework */; };
+		3BE830F150BD620A251A5FF6 /* Pods_OpenCaiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0D8FE227805E77C29F24BE /* Pods_OpenCaiTests.framework */; };
+		4D64CFC6A3BDE608F9FB6891 /* Pods_OpenCai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D318A4144B18916EDAB010 /* Pods_OpenCai.framework */; };
 		C79AA2541E3459DA0095B708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA2531E3459DA0095B708 /* main.m */; };
 		C79AA2571E3459DA0095B708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA2561E3459DA0095B708 /* AppDelegate.m */; };
 		C79AA25A1E3459DA0095B708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79AA2591E3459DA0095B708 /* ViewController.m */; };
@@ -50,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097FDB51259412E4DE1152AB /* Pods-OpenCai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCai/Pods-OpenCai.debug.xcconfig"; sourceTree = "<group>"; };
+		0CCEE8CBCEFF5DBBCAF0D706 /* Pods-OpenCaiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCaiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCaiTests/Pods-OpenCaiTests.release.xcconfig"; sourceTree = "<group>"; };
+		436922570C829BD36405C2CD /* Pods-OpenCaiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCaiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCaiUITests/Pods-OpenCaiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D14982B96D0150E038427AA /* Pods_OpenCaiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCaiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D318A4144B18916EDAB010 /* Pods_OpenCai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		791D890F12B899B046CF93ED /* Pods-OpenCaiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCaiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCaiUITests/Pods-OpenCaiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E60CF140C293F2DC51FC4BA /* Pods-OpenCai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCai.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCai/Pods-OpenCai.release.xcconfig"; sourceTree = "<group>"; };
+		8A0D8FE227805E77C29F24BE /* Pods_OpenCaiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCaiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79AA24F1E3459DA0095B708 /* OpenCai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79AA2531E3459DA0095B708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C79AA2551E3459DA0095B708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +101,7 @@
 		C79AA2C71E34AB550095B708 /* OpenCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenCodeView.xib; sourceTree = "<group>"; };
 		C79AA2C91E34B7C80095B708 /* AreaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AreaView.xib; sourceTree = "<group>"; };
 		C79AA2CB1E34B8400095B708 /* areaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = areaIcon.png; sourceTree = "<group>"; };
+		E5DCC874DF9CD6F710C42308 /* Pods-OpenCaiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCaiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCaiTests/Pods-OpenCaiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D64CFC6A3BDE608F9FB6891 /* Pods_OpenCai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE830F150BD620A251A5FF6 /* Pods_OpenCaiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,12 +125,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214C410F4BAE2D2288F4F667 /* Pods_OpenCaiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		846580EEF9F158D9C1090468 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				097FDB51259412E4DE1152AB /* Pods-OpenCai.debug.xcconfig */,
+				7E60CF140C293F2DC51FC4BA /* Pods-OpenCai.release.xcconfig */,
+				E5DCC874DF9CD6F710C42308 /* Pods-OpenCaiTests.debug.xcconfig */,
+				0CCEE8CBCEFF5DBBCAF0D706 /* Pods-OpenCaiTests.release.xcconfig */,
+				436922570C829BD36405C2CD /* Pods-OpenCaiUITests.debug.xcconfig */,
+				791D890F12B899B046CF93ED /* Pods-OpenCaiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C79AA2461E3459DA0095B708 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +152,8 @@
 				C79AA26B1E3459DB0095B708 /* OpenCaiTests */,
 				C79AA2761E3459DB0095B708 /* OpenCaiUITests */,
 				C79AA2501E3459DA0095B708 /* Products */,
+				846580EEF9F158D9C1090468 /* Pods */,
+				EB1FAC283DF62D2E6D392E64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -451,6 +481,16 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		EB1FAC283DF62D2E6D392E64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66D318A4144B18916EDAB010 /* Pods_OpenCai.framework */,
+				8A0D8FE227805E77C29F24BE /* Pods_OpenCaiTests.framework */,
+				5D14982B96D0150E038427AA /* Pods_OpenCaiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -458,9 +498,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C79AA27C1E3459DB0095B708 /* Build configuration list for PBXNativeTarget "OpenCai" */;
 			buildPhases = (
+				FA124874B40E37C9E58CDA58 /* [CP] Check Pods Manifest.lock */,
 				C79AA24B1E3459DA0095B708 /* Sources */,
 				C79AA24C1E3459DA0095B708 /* Frameworks */,
 				C79AA24D1E3459DA0095B708 /* Resources */,
+				7EEA0ED541C6B7C909241BD5 /* [CP] Embed Pods Frameworks */,
+				47D3BF9F225AC41B3E5EC57E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -475,9 +518,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C79AA27F1E3459DB0095B708 /* Build configuration list for PBXNativeTarget "OpenCaiTests" */;
 			buildPhases = (
+				9CC08E6EAB673FABA42927E6 /* [CP] Check Pods Manifest.lock */,
 				C79AA2641E3459DA0095B708 /* Sources */,
 				C79AA2651E3459DA0095B708 /* Frameworks */,
 				C79AA2661E3459DA0095B708 /* Resources */,
+				8ED4AAF628570C1E086F5EE1 /* [CP] Embed Pods Frameworks */,
+				F00A8348051C7C9E3495550E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -493,9 +539,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C79AA2821E3459DB0095B708 /* Build configuration list for PBXNativeTarget "OpenCaiUITests" */;
 			buildPhases = (
+				EAA74BA16AE5CA826560C61D /* [CP] Check Pods Manifest.lock */,
 				C79AA26F1E3459DB0095B708 /* Sources */,
 				C79AA2701E3459DB0095B708 /* Frameworks */,
 				C79AA2711E3459DB0095B708 /* Resources */,
+				0A7BCA95EC96B9532BF3296D /* [CP] Embed Pods Frameworks */,
+				D25777833CE8BB5F95B66168 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -588,6 +637,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A7BCA95EC96B9532BF3296D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCaiUITests/Pods-OpenCaiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47D3BF9F225AC41B3E5EC57E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCai/Pods-OpenCai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EEA0ED541C6B7C909241BD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCai/Pods-OpenCai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED4AAF628570C1E086F5EE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCaiTests/Pods-OpenCaiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CC08E6EAB673FABA42927E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D25777833CE8BB5F95B66168 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCaiUITests/Pods-OpenCaiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA74BA16AE5CA826560C61D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F00A8348051C7C9E3495550E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCaiTests/Pods-OpenCaiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA124874B40E37C9E58CDA58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C79AA24B1E3459DA0095B708 /* Sources */ = {
@@ -748,6 +935,7 @@
 		};
 		C79AA27D1E3459DB0095B708 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097FDB51259412E4DE1152AB /* Pods-OpenCai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MVJVM8PPG6;
@@ -762,6 +950,7 @@
 		};
 		C79AA27E1E3459DB0095B708 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E60CF140C293F2DC51FC4BA /* Pods-OpenCai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MVJVM8PPG6;
@@ -776,6 +965,7 @@
 		};
 		C79AA2801E3459DB0095B708 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DCC874DF9CD6F710C42308 /* Pods-OpenCaiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OpenCaiTests/Info.plist;
@@ -788,6 +978,7 @@
 		};
 		C79AA2811E3459DB0095B708 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCEE8CBCEFF5DBBCAF0D706 /* Pods-OpenCaiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = OpenCaiTests/Info.plist;
@@ -800,6 +991,7 @@
 		};
 		C79AA2831E3459DB0095B708 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436922570C829BD36405C2CD /* Pods-OpenCaiUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OpenCaiUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -811,6 +1003,7 @@
 		};
 		C79AA2841E3459DB0095B708 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791D890F12B899B046CF93ED /* Pods-OpenCaiUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = OpenCaiUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

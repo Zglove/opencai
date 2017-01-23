@@ -1,0 +1,6 @@
+framework module Pods_OpenCai {
+  umbrella header "Pods-OpenCai-umbrella.h"
+
+  export *
+  module * { export * }
+}
