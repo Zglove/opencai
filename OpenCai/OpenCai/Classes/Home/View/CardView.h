@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CardView : UIView
 
+
+
+@interface CardView : UIView
+- (CGFloat)getH;            //获取高度
 @end

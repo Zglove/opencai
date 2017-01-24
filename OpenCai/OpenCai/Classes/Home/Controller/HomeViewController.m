@@ -8,20 +8,18 @@
 
 #import "HomeViewController.h"
 #import "OpenCodeView.h"
+#import "OpenTimeView.h"
 #import "AreaView.h"
 #import "CardView.h"
-
+#import "ToolBarView.h"
 
 @interface HomeViewController ()
-//父视图，用来包裹自定义视图
-@property (weak, nonatomic) IBOutlet UIView *codeSuperView;
+
 @property(nonatomic, weak) OpenCodeView *codeView;
-
-@property (weak, nonatomic) IBOutlet UIView *areaSuperView;
+@property(nonatomic, weak) OpenTimeView *timeView;
 @property(nonatomic, weak) AreaView *areaView;
-
-@property (weak, nonatomic) IBOutlet UIView *cardSuperView;
 @property(nonatomic, weak) CardView *cardView;
+@property(nonatomic, weak) ToolBarView *toolView;
 
 @end
 
@@ -49,15 +47,30 @@
     self.navigationItem.titleView = titleLabel;
     
     //2.设置界面
-    _codeView = [OpenCodeView loadOpenCodeView];
-    _codeView.frame = _codeSuperView.bounds;
-    [_codeSuperView addSubview:_codeView];
+    OpenCodeView *cv = [[OpenCodeView alloc]initWithFrame:CGRectMake(0, 0, k_SCREEN_W, 80)];
+    [self.view addSubview:cv];
+    _codeView = cv;
     
-    _areaView = [AreaView loadAreaView];
-    _areaView.frame = _areaSuperView.bounds;
-    [_areaSuperView addSubview:_areaView];
+    OpenTimeView *tv = [[OpenTimeView alloc]initWithFrame:CGRectMake(0, _codeView.bounds.size.height, k_SCREEN_W, 50)];
+    [self.view addSubview:tv];
+    _timeView = tv;
     
- 
+    AreaView *av = [[AreaView alloc]initWithFrame:CGRectMake(0, _timeView.frame.origin.y + _timeView.frame.size.height, k_SCREEN_W, 140)];
+    [self.view addSubview:av];
+    _areaView = av;
+    
+    CardView *dv = [[CardView alloc]initWithFrame:CGRectMake(0, _areaView.frame.origin.y + _areaView.frame.size.height, k_SCREEN_W, 100)];
+    dv.frame = CGRectMake(0, _areaView.frame.origin.y + _areaView.frame.size.height, k_SCREEN_W, [dv getH]);
+    
+    [self.view addSubview:dv];
+    _cardView = dv;
+    
+    //3.设置底部条
+    NSLog(@"%@", NSStringFromCGRect(self.view.frame));
+    //有导航的情况下，view会被整体下移64，有64高部分在屏幕外面
+    ToolBarView *toolView = [[ToolBarView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height - 44 - 64, k_SCREEN_W, 44)];
+    [self.view addSubview:toolView];
+    _toolView = toolView;
     
 }
 #pragma mark - 监听事件

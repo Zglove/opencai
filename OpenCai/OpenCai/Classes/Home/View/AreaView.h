@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface AreaView : UIView
-+ (instancetype)loadAreaView;
+
+
 @end

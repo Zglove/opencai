@@ -10,10 +10,11 @@
 #import "ProModel.h"
 #import "TriangleView.h"
 #define CellReuseIdentifier (@"CellReuseIdentifier")
+
 @interface AreaView()<UITableViewDelegate, UITableViewDataSource>
 
-@property (weak, nonatomic) IBOutlet UIImageView *areaImageView;    //图片
-@property (weak, nonatomic) IBOutlet UITableView *areaListView;     //列表
+@property (weak, nonatomic) UIImageView *areaImageView;    //图片
+@property (weak, nonatomic) UITableView *areaListView;     //列表
 @property (strong, nonatomic) NSMutableArray *dataSoure;
 @property (weak, nonatomic) TriangleView *markView;                 //滑块
 
@@ -40,22 +41,39 @@
     
     return _dataSoure;
 }
-+ (instancetype)loadAreaView {
-    return [[NSBundle mainBundle] loadNibNamed:@"AreaView" owner:nil options:nil].firstObject;
-}
+
 
 //初始化
-- (void)awakeFromNib {
-    [super awakeFromNib];
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        
+        _lastIndex = 0;
+        
+        [self setupUI];
+    }
+    return self;
+}
+- (void)setupUI {
+    
+    //1.左边图片
+    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.bounds.size.width * 2 / 3, self.bounds.size.height)];
+    imageView.image = [UIImage imageNamed:@"areaIcon"];
+    [self addSubview:imageView];
+    _areaImageView = imageView;
+    
+    //2.右边列表
+    UITableView *listView = [[UITableView alloc]initWithFrame:CGRectMake(self.bounds.size.width * 2 / 3, 0, self.bounds.size.width * 1 / 3, self.bounds.size.height)];
+    listView.dataSource = self;
+    listView.delegate = self;
+    listView.scrollEnabled = NO;
+    listView.rowHeight = listView.bounds.size.height / self.dataSoure.count;  //行高
+    [listView registerClass:[UITableViewCell class] forCellReuseIdentifier:CellReuseIdentifier];
+    [self addSubview:listView];
+    _areaListView = listView;
+    
 
-    _lastIndex = 0;
-    
-    //注册cell
-    [_areaListView registerClass:[UITableViewCell class] forCellReuseIdentifier:CellReuseIdentifier];
-    _areaListView.scrollEnabled = NO;
-    _areaListView.rowHeight = _areaListView.bounds.size.height / self.dataSoure.count;  //行高
-    
-    //添加滑块
+    //3.添加滑块
     CGFloat H = _areaListView.rowHeight;
     CGFloat W = H * 1 / 4;
     CGFloat X = _areaImageView.bounds.size.width - W;
@@ -66,6 +84,7 @@
     [_areaImageView addSubview:markView];
     _markView = markView;
 }
+
 #pragma mark - UITableViewDelegate && UITableViewDataSource
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
@@ -77,7 +96,7 @@
     ProModel *model = self.dataSoure[indexPath.row];
     
     cell.textLabel.text = model.name;
-   
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
