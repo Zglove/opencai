@@ -6,6 +6,9 @@
 //  Copyright © 2017年 谈虎啸. All rights reserved.
 //
 
+/**
+ 测试拉取
+ */
 #import "AppDelegate.h"
 #import "HomeViewController.h"
 @interface AppDelegate ()
